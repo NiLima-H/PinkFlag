@@ -3,7 +3,7 @@
 ## Team Profile
 
 * **Team Name:** Pink Flag
-* **Deployment Platform:** Render (Web Service)
+* **Deployment Platform:** Render (Web Service) https://pinkflag-2.onrender.com/
 
 ---
 
