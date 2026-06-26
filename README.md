@@ -41,27 +41,19 @@ The microservice is built using **FastAPI** to ensure high performance, asynchro
 
 ```text
 queuestorm-investigator/
-│
 ├── app/
-│   ├── __init__.py
-│   ├── main.py                 # FastAPI application and API endpoints
-│   ├── config.py               # Environment configuration
-│   ├── schemas.py              # Request and response schemas
-│   │
-│   ├── engine/
-│   │   ├── rules.py            # Rule-based business logic
-│   │   └── ai.py               # AI orchestration layer
-│   │
+│   ├── main.py                 # FastAPI application entry
+│   ├── models.py               # Pydantic request/response schemas
 │   ├── services/
-│   │   ├── investigator.py     # Core investigation engine
-│   │   └── llm_client.py       # LLM provider wrapper
-│   │
+│   │   └── investigator.py     # Core investigation logic
 │   └── utils/
-│       └── safety.py           # Safety validation
-│
-├── .env.example
-├── requirements.txt
-└── README.md
+│       └── safety.py           # Safety rule checks and fixes
+├── requirements.txt            # Python dependencies
+├── Dockerfile                  # Containerisation
+├── .env.example                # Environment variable template
+├── README.md                   # This file
+├── SUST_Preli_Sample_Cases.json # Public sample cases (provided)
+└── validate_samples.py         # Validation script against sample cases
 ```
 
 ---
