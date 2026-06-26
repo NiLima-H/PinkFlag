@@ -63,7 +63,7 @@ queuestorm-investigator/
 ## Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/NiLima-H/PinkFlag
 cd queuestorm-investigator
 ```
 
