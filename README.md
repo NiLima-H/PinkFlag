@@ -115,8 +115,8 @@ For deployment (Render):
 
 ```bash
 uvicorn app.main:app --host 0.0.0.0 --port $PORT
+use command 'docker compose up --build'
 ```
-
 ---
 
 # 4. AI & Model Usage
